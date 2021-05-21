@@ -20,7 +20,7 @@ const NavBar = () => {
   return (
     <>
       {/* This example requires Tailwind CSS v2.0+ */}
-      <div className="relative bg-white">
+      <div className="relative bg-white z-10" >
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -75,7 +75,7 @@ const NavBar = () => {
               </NavLink>
 
               <NavLink
-                to = "/view"
+                to = "/buy"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
                 Buy
@@ -211,8 +211,8 @@ const NavBar = () => {
         <div
           className={
             open
-              ? "opacity-100 scale-100 transition ease-out duration-200 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
-              : "opacity-0 scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+              ? "opacity-100  scale-100 transition ease-out duration-200 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+              : "opacity-0  scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right hidden md:hidden"
           }
         >
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
@@ -338,8 +338,8 @@ const NavBar = () => {
                       Buy
                       </span>
                   </NavLink>
-                  <a
-                    href="#"
+                  <NavLink
+                    to="/leaderboard"
                     className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                   >
                     {/* Heroicon name: outline/refresh */}
@@ -359,9 +359,9 @@ const NavBar = () => {
                       />
                     </svg>
                     <span className="ml-3 text-base font-medium text-gray-900">
-                      Learn
+                      Leaderboard
                       </span>
-                  </a>
+                  </NavLink>
                 </nav>
               </div>
             </div>

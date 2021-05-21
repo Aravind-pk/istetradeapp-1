@@ -110,10 +110,10 @@ class View extends React.Component {
 
         return (
             <div className="container px-6" id="search_box_view">
-                <div className="field is-horizontal">
+                <div className="field mt-5 is-horizontal max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20 md:max-w-700 ml-auto mr-auto">
                     <div className="control has-icons-right field-label">
                         <span className="icon is-small is-right">
-                            <img src={require("../assets/search.png")} alt=""/>
+                            
                         </span>
                         {/* <input 
                             className="input"

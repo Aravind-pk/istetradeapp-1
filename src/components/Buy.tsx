@@ -99,7 +99,7 @@ class Buy extends React.Component<any, State> {
     render() {
         return (
             <section className="section">
-                <div className="container">
+                <div className="container max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
 
                     <h1 className="title is-3" > <span className="has-text-primary is-uppercase">Total Money Left : </span> <span className="is-pulled-right">$ {this.props.money.money}</span> </h1>
 
