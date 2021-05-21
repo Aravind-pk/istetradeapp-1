@@ -39,7 +39,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "start:both": "concurrently  \"yarn start\" \"node backend/app.js\" "
+    "start:both": "concurrently  \"yarn start\" \"node backend/app.js\" ",
+    "buildf": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
