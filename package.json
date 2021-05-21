@@ -37,7 +37,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco start",
+    "build": "craco build",
     "test": "craco test",
     "start:both": "concurrently  \"yarn start\" \"node backend/app.js\" ",
     "buildf": "react-scripts build"
