@@ -1,9 +1,9 @@
 import React from "react"
-import { NavLink } from "react-router-dom"
+// import { NavLink } from "react-router-dom"
 
-import LogOut from "../components/LogOut"
+// import LogOut from "../components/LogOut"
 import { getMarketStatus, setUserName } from "../utils/utils"
-import LiveClock from "../components/clock";
+// import LiveClock from "../components/clock";
 import Navbar from "../components/Navbar";
 
 

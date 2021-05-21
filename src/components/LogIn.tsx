@@ -1,8 +1,8 @@
 import React from "react"
 import axios from "axios";
 
-import { Link } from "react-router-dom"
-import { history } from "../router/Approuter";
+// import { Link } from "react-router-dom"
+// import { history } from "../router/Approuter";
 
 interface State {
     email: String,

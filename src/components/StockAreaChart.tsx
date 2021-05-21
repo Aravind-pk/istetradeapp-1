@@ -1,8 +1,8 @@
 import React from "react"
 import {AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Label} from "recharts"
-import axios from "axios"
-import { RoundOf } from "../utils/utils"
-import { spawn } from "child_process";
+// import axios from "axios"
+// import { RoundOf } from "../utils/utils"
+// import { spawn } from "child_process";
 
 interface PassedProps {
     data: any

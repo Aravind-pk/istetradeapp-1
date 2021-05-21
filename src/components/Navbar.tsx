@@ -2,13 +2,13 @@ import React from "react";
 
 
 
-import { NavLink} from "react-router-dom"
+
 
 import LogOut from "../components/LogOut"
 import LogOutM from "../components/LogOutM"
-import { getMarketStatus, setUserName } from "../utils/utils"
+// import { getMarketStatus, setUserName } from "../utils/utils"
 import LiveClock from "../components/clock";
-import Navbar from "../components/Navbar";
+import { NavLink} from "react-router-dom"
 
 
 
